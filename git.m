@@ -29,7 +29,9 @@ function git(varargin)
 %
 %       For Mac OSX:
 %       >> GIT_EDITOR = 'TextEdit'; % Simply provide the application name
-%   
+%
+%   The most up to date version of this code can be found at:
+%   https://github.com/slayton/matlab-git
 %
 % Copyright(c) 2012, Stuart P. Layton <stuart.layton@gmail.com> MIT
 % http://stuartlayton.com
