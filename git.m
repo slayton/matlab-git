@@ -84,7 +84,7 @@ elseif strfind(result, 'Please supply the message using either -m or -F option.'
     
     %if GIT_EDITOR isn't defined, inform the user, otherwise do nothing as
     %they probably left the message empty intentionally
-    if empty(GIT_EDITOR)
+    if isempty(GIT_EDITOR)
         fprintf('\nConsider creating a global matlab variable named GIT_EDITOR\n')
         fprintf('and pointing it to the binary of your preferred graphical text editor\n');
         fprintf('For more information run: help git\n');
