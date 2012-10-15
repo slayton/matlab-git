@@ -1,0 +1,13 @@
+
+I'm still not happy with how the editing of commit messages is working out.
+
+Ideally anytime GIT needs user the matlab editor would display the file to 
+be edited or a fake teminal (written in matlab) would open up. Its not clear 
+how to do this though without explicitly parsing the commands or the result 
+
+Another option would be to NOT call GIT directly from Matlab but rather to 
+execute a simple java program that could then execute commands in Matlab, 
+using MatlabControl this might allow the functionality that I'm looking for
+
+ (http://code.google.com/p/matlabcontrol/) into this.
+
